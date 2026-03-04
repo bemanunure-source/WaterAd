@@ -1,0 +1,31 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WaterAd | The Billboard In Your Hand</title>
+    
+    <!-- Scripts & Styles -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
+    
+    <style>
+        .glass { background: rgba(255, 255, 255, 0.05); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .water-gradient { background: linear-gradient(135deg, #0f172a 0%, #0369a1 50%, #0891b2 100%); }
+    </style>
+</head>
+
+<body class="water-gradient font-sans text-white leading-normal">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 glass px-6 py-4 flex justify-between items-center mx-4 mt-4 rounded-2xl">
+        <div class="flex items-center gap-3">
+            <!-- Logo Image Placeholder -->
+            <i class="fas fa-droplet text-cyan-400 text-2xl"></i>
+            <span class="text-2xl font-black tracking-tighter italic uppercase text-white">WaterAd</span>
+        </div>
+        
+        <!-- WhatsApp Button with your number: +263 778 527 622 -->
+        <a href="https://wa.me!" 
+           class="bg-cyan-500 hover:bg-cyan-400 text-white px-5 py-2 rounded-full font-bold transition shadow-lg shadow-cyan-900/50 text-sm">
+           WhatsApp Us
+        </a>
+    </nav>
